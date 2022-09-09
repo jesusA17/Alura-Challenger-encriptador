@@ -1,0 +1,140 @@
+header {
+
+    background: #75abfd;
+    padding: 20px 0;
+}
+nav {
+
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: #07ad23cc; 
+    text-decoration: underline;
+
+}
+
+img {
+
+    width: 15%;
+}
+
+.posicion {
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.diseno{
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.diseno li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: rgb(12, 12, 12);
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-block-end-width: 10px;
+    border-radius: 10px;
+}
+
+.diseno li:hover{
+
+    border-color: rgb(2, 71, 136);
+    font-size: 40px;
+
+}
+
+.diseno li:hover h2 {
+
+    font-size: 40px;
+}
+.diseno li:active{
+
+    border-color: rgba(18, 136, 2, 0.747);
+
+}
+.diseno h2{
+
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.pd{
+
+    font-size: 18px;
+}
+
+.pc{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.diseno img{
+
+    width: 100%;
+}
+
+footer{
+
+    text-align: center;
+    background: url(img/fondo2.png);
+    padding: 10px;
+}
+.PIE{
+
+    width: 10%;
+}
+.PAD{
+
+    font-weight: bold;
+    margin: 10px;
+    color: aliceblue;
+}
+
+main{
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+form label{
+
+    display: inline;
+}
+
+form input{
+
+    display: inline;
+}

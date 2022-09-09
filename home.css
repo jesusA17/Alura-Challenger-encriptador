@@ -1,0 +1,55 @@
+body{
+
+    background: #c7b1fae8;
+}
+
+#naruto{
+    width: 100%;
+}
+
+h1{
+
+    text-align: center;
+    color: rgb(1, 42, 71);
+}
+
+h3{
+
+    text-align: center;
+    color: rgb(10, 10, 10);
+    height: 150px;
+    border: 3px solid #110363;
+    padding: 30px;
+    margin: 40px;
+}
+
+p{
+
+    text-align: center;
+}
+
+em strong {
+
+    color: red;
+}
+ul{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+
+}
+
+#letra{
+
+    font-size: 20px;
+}
+.nt{
+
+    font-style: oblique;
+}
+.personaj{
+
+    width: 50%;
+}

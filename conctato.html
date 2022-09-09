@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>CONCTACTO DE AGUA PLACER </title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+<body>
+
+    <header>
+
+        <div class="posicion">
+
+            <h1> <img src="img/Logo.png"> </h1>
+            <nav>
+
+                <ul>
+                    <li><a href="Index.html"> BIENVENIDO </a></li>
+                    <li><a href="productos.html"> PRODUCTOS </a> </li>
+                    <li><a href="conctato.html"> CONTACTOS </a> </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+        <main>
+
+            <form>
+
+                <label for="nombre"> NOMBRE Y APELLIDO </label>
+                <input type="text" id="nombre" class="padre" required >
+                
+                <label for="correo"> Correo Electronico</label>
+                <input type="email" id="correo" class="padre" required>
+
+                <label for="telefono"> Teléfono </label>
+                <input type="tel" id="telefono" class="padre" required>
+
+                <label for="mensaje"> Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="padre"> </textarea>
+            <div>
+
+                    <p> Como le gustaria ser contactado?</p>
+                    <label for="radio-imail"> <input type="radio" name="lista" value="imail" id="radio-imail"> EMAIL </label>
+                        
+                    <label for="radio-tele"><input type="radio" name="lista" value="telefono" id="radio-tele"> TELÉFONO </label>
+                        
+                    <label for="radio-app"><input type="radio" name="lista" value="whatsapp" id="radio-app" checked> WHATSAPP </label>
+                        
+            </div>
+               
+            <div> 
+                
+            <p> En qué horario te gustaria ser atendido? </p>
+                    <select>
+
+                        <option> Mañana </option>
+                        <option> Tarde </option>
+                        <option> Noche </option>
+
+
+                    </select>
+            </div>
+            
+                    <label class="novedad"><input type="checkbox" checked> Le gustaria recibir novedades de la Empresa Agua Placer? </label>
+                    
+                    <input type="submit" value="Enviar Formulario" class="envio">
+
+
+            </form>
+
+
+        </main>
+                <footer>
+
+                    <img src="img/Logo.png" class="PIE">
+                    <p class="PADS"> HORARIO DE ATENCION DE LUNES A SABADO - 7AM - 6PM </p>
+                    <p class="PAD"> &copy; Copyright AGUA PLACER °2022 </p>
+
+                </footer>
+
+</body>
+
+</html>
